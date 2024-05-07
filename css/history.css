@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.container {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+}
+.navbar-brand {
+  font-size: 1.8rem; 
+  font-weight: bold;
+  color: #343a40;
+}
+
+.navbar-brand img {
+  width: 50px; 
+  height: auto; 
+  margin-right: 1px; 
+}
+
+.navbar-toggler-icon {
+  color: #343a40;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.4rem; 
+  font-weight: bold;
+  color: #343a40;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ff6961;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.header-image img {
+  max-width: 60%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.sidebar {
+  padding: 20px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #343434;
+  font-weight: bolder;
+}
+
+.sidebar ul li a:hover {
+  color: #212121;
+}
+
+.content {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.content p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+button {
+  background-color: #0c893c;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #045f37;
+}
+
+.history-maps {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.map-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.content-map {
+  text-align: center;
+}
+
+#map {
+  width: 100%;
+  height: 450px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+footer .container-fluid {
+  width: 100%;
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .navbar-brand img {
+    width: 35px;
+  }
+
+  .navbar-toggler {
+    width: 45px;
+    height: auto;
+  }
+
+  .navbar-toggler-icon {
+    width: 100%;
+  }
+  .navbar-collapse {
+    background-color: #ffffff;
+    z-index: 9999; 
+    border: 1px solid #ffffff;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    }
+
+    .city-sidebar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .sidebar {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+  
+    .sidebar ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .sidebar ul li {
+      margin-bottom: 10px;
+      margin-right: 10px;
+      width: 30%;
+    }
+  
+    .content {
+      padding: 0 15px;
+    }
+  
+    .header-image img {
+      max-width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .history-maps {
+      padding: 15px;
+    }
+
+    .col-lg-9 {
+      flex: 1; 
+      max-width: 100%;
+  }
+
+  h2 {
+      font-size: 24px; 
+      margin-bottom: 10px;
+  }
+
+  p {
+      font-size: 16px; 
+      margin-bottom: 15px;
+  }
+
+  .main-img,
+  .add-img {
+      max-width: 90%; 
+      height: auto;
+      border-radius: 10px; 
+      box-shadow: none; 
+      margin-bottom: 5px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+}

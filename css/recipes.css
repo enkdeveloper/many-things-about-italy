@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.container {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-size: 1.8rem; 
+  font-weight: bold;
+  color: #343a40;
+}
+
+.navbar-brand img {
+  width: 50px; 
+  height: auto; 
+  margin-right: 1px; 
+}
+
+.navbar-toggler-icon {
+  color: #343a40;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.4rem; 
+  font-weight: bold;
+  color: #343a40;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ff6961;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+  color: #343a40;
+  font-size: 1.8rem; 
+  margin-bottom: 30px; 
+  text-decoration: underline;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 5;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px; 
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 1.2rem; 
+}
+
+.sidebar ul li a:hover {
+  color: #ff6961;
+  font-size: 1.4rem;
+}
+
+.explore-banner {
+  position: relative;
+  background-image: url('../img/recipes-page.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 800px; 
+}
+
+.explore-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  margin: auto;
+  width: 90%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #343a40;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.explore-overlay h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.explore-overlay p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+#toggle-explore {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#toggle-explore:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+footer .container-fluid {
+  width: 100%;
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .navbar-brand img {
+    width: 35px;
+  }
+
+  .navbar-toggler {
+    width: 45px;
+    height: auto;
+  }
+
+  .navbar-toggler-icon {
+    width: 100%;
+  }
+  .navbar-collapse {
+    background-color: #ffffff;
+    z-index: 9999; 
+    border: 1px solid #ffffff;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    }
+
+    .sidebar {
+      padding: 5px;
+      padding-left: 30px;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+
+    .sidebar h3 {
+      font-size: 1.5rem; 
+      margin-bottom: 10px;
+    }
+    
+    .sidebar ul {
+      list-style-type: none;
+      padding: 2;
+    }
+    
+    .sidebar ul li {
+      margin-bottom: 5px; 
+    }
+    
+    .sidebar ul li a {
+      font-size: 1rem; 
+    }
+    
+    .sidebar ul li a:hover {
+      font-size: 1.2rem;
+    }
+  
+    .featured-recipes {
+      margin: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  
+    .explore-banner {
+      position: relative;
+      background-image: url('../img/recipes-page.png'); 
+      background-size: cover;
+      background-position: center;
+      height: 800px; 
+    }
+  
+    .explore-overlay {
+      padding: 15px;
+    }
+  
+    .explore-overlay h2 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+  
+    .explore-overlay p {
+      font-size: 0.8rem;
+      margin-bottom: 15px;
+    }
+  
+    #toggle-explore {
+      padding: 8px 16px;
+      font-size: 1rem;
+      margin-top: 15px;
+    }
+
+  footer {
+    padding: 10px;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+}
+
+
+

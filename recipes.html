@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Many Things About Italy-Recipes</title>
+  <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./css/recipes.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/nav.png" alt="Many Things About Italy Logo">
+        Many Things About Italy
+      </a>   
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./recipes.html">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./history.html">History</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="sidebar">
+            <h3>Recipe Categories</h3>
+            <ul class="list-unstyled">
+                    <li><a href="./categories/antipasta.html">Antipasta</a></li>
+                    <li><a href="./categories/pasta.html">Pasta</a></li>
+                    <li><a href="./categories/pizza.html">Pizza</a></li>
+                    <li><a href="./categories/risotto.html">Risotto</a></li>
+                    <li><a href="./categories/seafood.html">Seafood</a></li>
+                    <li><a href="./categories/meat.html">Meat</a></li>
+                    <li><a href="./categories/vegetarian.html">Vegetarian</a></li>
+                    <li><a href="./categories/desserts.html">Dessert</a></li>
+                    <li><a href="./categories/coffee.html">Coffee</a></li>
+                    <li><a href="./categories/grandma.html">Grandma Recipes</a></li>
+                    <li><a href="./categories/regional.html">Regional Specialties</a></li>
+                    <li><a href="./categories/slowfood.html">Slow Food Classics</a></li>
+                    <li><a href="./categories/timehonored.html">Time-Honored Classics</a></li>
+                    <li><a href="./categories/culinary.html">Culinary Traditions</a></li>
+                    <li><a href="./categories/familyfavorites.html">Family Favorites</a></li>
+                    <li><a href="./categories/streetfood.html">Street Food</a></li>
+                    <li><a href="./categories/gastronomicadventures.html">Gastronomic Adventures</a></li>
+            </ul>          
+          </div>                 
+        </div>
+        <div class="col-lg-9 featured-recipes">     
+          <div class="row explore-banner">
+              <div class="explore-overlay">
+                <h2>Start Exploring Italian Flavors Now</h2>
+                  <div id="explore-content" style="display: none;">
+                      <p>Italian cuisine represents a culinary adventure that has been embraced and appreciated by a huge fan base around the world for centuries. After the fall of the Roman Empire, the different regions of Italy developed their own traditions, which continue to this day throughout the country. Perhaps the most distinctive feature of Italian cuisine lies in its simplicity. Most dishes are made with only a few ingredients, which is why Italian chefs often emphasize the quality of the ingredients rather than the complexity of the preparation process.</p>
+                      <p>Throughout history, Italian cuisine has undergone many transformations and spread all over the world. Especially with the discovery of the American continent and the introduction of products from the New World such as potatoes, tomatoes, peppers, corn and sugar beets. These added new flavors and richness to Italian cuisine. However, most Italian dishes are still rooted in the past and retain their traditional flavors.</p>
+                      <p>Regional diversity is also an important feature of Italian cuisine. From the north to the south of the country, different regions have their own unique recipes and food cultures. For example, risotto and tortellini are popular in northern Italy, while in the south Naples is known for its famous pizzas. Each region has its own recipes and ingredients, making Italian cuisine versatile and rich.</p>
+                      <p>One of the pillars of Italian cuisine is the Mediterranean diet, a healthy and nutritious diet. Enriched with pasta, fish, fruits and vegetables, this diet explains why Italian cuisine is so popular for health and taste. Cheese, charcuterie and wine are also at the heart of Italian cuisine and are an integral part of Italian gastronomic culture, along with iconic flavors such as pizza and coffee.</p>
+                  </div>
+                  <button id="toggle-explore" onclick="toggleExplore()">Some Learn</button>
+              </div>
+          </div>          
+      </div>
+      </div>
+    </div>   
+  </section>
+   
+       
+    <footer class="bg-dark text-white py-4">
+      <div class="context-center container-fluid">
+        <p>&copy; 2024 Many Things About Italy</p>
+      </div>
+  </footer>
+  
+  <script src="./js/recipes.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

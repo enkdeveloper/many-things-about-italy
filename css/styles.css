@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.container {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-size: 1.8rem; 
+  font-weight: bold;
+  color: #343a40;
+}
+
+.navbar-brand img {
+  width: 50px; 
+  height: auto; 
+  margin-right: 1px; 
+}
+
+.navbar-toggler-icon {
+  color: #343a40;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.4rem; 
+  font-weight: bold;
+  color: #343a40;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ff6961;
+}
+
+.weather-section {
+  background-image: url('../img/weather-bg.png'); 
+  background-color: rgba(255, 255, 255, 0.3);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 50px 0; 
+  text-align: center; 
+}
+
+.weather-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.city-weather {
+  width: 300px;
+  height: 230px;
+  padding: 0px;
+  margin: 30px;
+  background-color: rgba(222, 222, 222, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.city-weather:hover {
+  transform: scale(1.05);
+}
+
+.condition-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.city-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.condition {
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-transform: capitalize; 
+}
+
+.temperature {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.wind-speed {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.carousel-section {
+  padding: 50px 0; 
+  background-color: #f8f9fa; 
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  padding: 50px; 
+}
+
+.carousel-item img {
+  border-radius: 10px;
+  max-height: 500px; 
+  width: auto;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto; 
+}
+
+.carousel-indicators {
+  bottom: 10px; 
+}
+
+.carousel-indicators button {
+  background-color: #212529; 
+  border: none; 
+  width: 10px; 
+  height: 10px; 
+  margin: 0 5px; 
+}
+
+.carousel-indicators button.active {
+  background-color: #ffc107; 
+}
+
+.translate-section {
+  background-image: url("../img/translate.png");
+  background-color: rgba(255, 255, 255, 0.3);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 20px 0; 
+  text-align: center; 
+}
+
+.translate-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 80px;
+  text-align: center;
+}
+
+.translate-container textarea {
+  width: 400px;
+  height: 150px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  resize: none;
+  transition: all 0.3s ease;
+}
+
+.translate-container button {
+  background-color: #0c893c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.translate-container button:hover {
+  background-color: #045f37;
+}
+
+.section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  background-color: #f8f9fa;
+}
+
+.container-section {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.recipes-image .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.recipes-image .col-lg-6 {
+  padding: 0 2rem;
+}
+
+.recipes-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.recipes-image h2 {
+  color: #333;
+}
+
+.recipes-image p {
+  color: #666;
+}
+
+.recipes-image .nav-link {
+  color: #28a745; 
+}
+
+.recipes-image .nav-link:hover {
+  color: #218838; 
+}
+
+.quotes-container {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#vinci-portrait {
+  margin: auto;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  background-image: url('../img/da-vinci.png'); 
+  background-position: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+#quote {
+  padding: 20px;
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+.explore-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  background-color: #f8f9fa;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.map-container .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.map-text {
+  margin-left: 0px;
+}
+
+#map {
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.explore-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.explore-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.explore-section a {
+  color: #28a745; 
+  text-decoration: none;
+}
+
+.explore-section a:hover {
+  color: #218838; 
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+footer .container-fluid {
+  width: 100%;
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .navbar-brand img {
+    width: 35px;
+  }
+
+  .navbar-toggler {
+    width: 45px;
+    height: auto;
+  }
+
+  .navbar-toggler-icon {
+    width: 100%;
+  }
+
+  .navbar-collapse {
+    background-color: #ffffff;
+    z-index: 9999; 
+    border: 1px solid #ffffff;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    }
+
+    .translate-section {
+      margin: auto;
+      padding: 0px;
+    }
+
+    .translate-container {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .translate-container textarea {
+      width: 80%;
+      height: 120px;
+      margin-bottom: 20px;
+    }
+  
+    .translate-container button {
+      width: 60%;
+    }
+  
+    .section-content .container-section {
+      padding: 0 20px;
+      margin: auto;
+    }
+  
+    .recipes-image .row {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .recipes-image .col-lg-6 {
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+  
+    .map-container .row {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .map-text {
+      margin-left: 0;
+      margin-top: 20px;
+      padding: 15px;
+    }
+  
+    #map {
+      height: 300px;
+      width: 90%;
+      padding: 10px;
+      text-align: center;
+      justify-content: center;
+      margin: auto;
+    }
+  
+    .weather-container {
+      flex-direction: row;
+      padding: 10px;
+    }
+  
+    .city-weather {
+      width: calc(50% - 25px); 
+      height: 230px;
+      margin: 15px 0;
+    }
+
+  footer {
+    padding: 10px;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+}
+
