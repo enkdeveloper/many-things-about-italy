@@ -9,7 +9,7 @@ This project contains a website that provides information about Italy. It is des
 
 
 
-Features
+Features:
 
 
 Provides information about historical and cultural sites in Italy.
@@ -25,7 +25,7 @@ Presents a map of Italy using the Google Maps API.
 
 
 
-Technologies Used
+Technologies Used:
 
 
 HTML
@@ -45,7 +45,7 @@ Translation API
 
 
 
-Screenshots
+Screenshots:
 
 ![Ekran görüntüsü 2024-05-07 124240](https://github.com/enkdeveloper/many-things-about-italy/assets/119349974/683ff59f-506e-4962-b850-1a808892f84f)
 
@@ -62,7 +62,7 @@ Screenshots
 
 
 
-How to Contribute
+How to Contribute:
 
 
 Fork this repository.
@@ -76,7 +76,7 @@ Submit your changes (pull request).
 
 
 
-License
+License:
 
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
