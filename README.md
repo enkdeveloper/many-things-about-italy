@@ -9,6 +9,8 @@ This project contains a website that provides information about Italy. It is des
 
 
 
+
+
 Features:
 
 
@@ -19,6 +21,8 @@ Includes traditional Italian recipe listings.
 Contains a translation tool that can translate English texts to Italian.
 
 Presents a map of Italy using the Google Maps API.
+
+
 
 
 
@@ -45,6 +49,8 @@ Translation API
 
 
 
+
+
 Screenshots:
 
 ![Ekran görüntüsü 2024-05-07 124240](https://github.com/enkdeveloper/many-things-about-italy/assets/119349974/683ff59f-506e-4962-b850-1a808892f84f)
@@ -62,6 +68,8 @@ Screenshots:
 
 
 
+
+
 How to Contribute:
 
 
@@ -70,6 +78,8 @@ Fork this repository.
 Add new features or fix bugs.
 
 Submit your changes (pull request).
+
+
 
 
 
